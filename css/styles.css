@@ -1,0 +1,10 @@
+#titulo{
+    margin: 2.5%;
+    text-align: center;
+    text-decoration: underline gray;
+}
+#caixa{
+    padding: 2.5%; 
+    margin: 2.5%;
+    border: 1px solid black;
+}
