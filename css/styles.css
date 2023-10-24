@@ -4,10 +4,34 @@
     text-decoration: underline gray;
 }
 
-#caixa{
-    padding: 2.5%; 
-    margin: 2.5%;
+.caixa {
+    flex: 0 0 calc(100% - 5%); 
     border: 1px solid black;
+    margin: 2%;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%; 
+
+    @media (min-width: 768px) {
+        flex: 0 0 calc(50% - 5%); 
+    }
+}
+
+
+.container-fluid-xs {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
 }
 
 /* Conteudo da caixa */
@@ -21,6 +45,7 @@
 .image {
     width: 100px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
