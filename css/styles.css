@@ -3,8 +3,24 @@
     text-align: center;
     text-decoration: underline gray;
 }
+
 #caixa{
     padding: 2.5%; 
     margin: 2.5%;
     border: 1px solid black;
+}
+
+/* Conteudo da caixa */
+#materia{
+    text-align: center;
+    font-size: smaller;
+}
+#nome{
+    text-align: center;
+}
+.image {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
