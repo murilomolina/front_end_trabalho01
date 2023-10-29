@@ -1,5 +1,5 @@
 #titulo{
-    margin: 2.5%;
+    margin: 30px;
     text-align: center;
     text-decoration: underline gray;
 }
@@ -21,12 +21,13 @@
 .caixa {
     flex: 0 0 calc(100% - 5%);
     border: 1px solid black;
-    margin: 20%;
+    border-radius: 40px;
+    margin: 150px;
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    padding: 30px;
 
     
     @media (min-width: 768px) {
